@@ -153,6 +153,7 @@ a {
 	background-size:cover;
 	background-size: 100%;
     background-repeat: no-repeat;
+	
 }
 
 .main-menu ul>li a {
@@ -160,10 +161,67 @@ a {
     font-size: 16px;
     display: block;
     font-weight: 500;
-    color: #ffffff;
+    color: #FFFFFF;
     padding: 22px 20px;
     text-transform: uppercase;
+	
+	
 }
+/* bande menu fixe */
+.them_menu_ye {  
+  overflow: hidden;
+  background-color: #333;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+  margin-top: 20px; 
+  /* background: #ddd; */
+  color: black;
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.them_menu_ye {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+
+.them_menu_ye {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.them_menu_ye a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.them_menu_ye a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.them_menu_ye a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url(../images/banner.png);
+
+  /* Add the blur effect */
+  filter: blur(5px);
+  -webkit-filter: blur(5px); } 
 
 nav.main-menu {
     float: right;
@@ -204,16 +262,18 @@ ul, li, ol {
 }
 
 .logo{ width: 100%; float: left; }
-.web_text{ width: 100%; float: left; font-size: 48px; padding-top: 160px;}
+.web_text{ width: 100%; float: left; font-size: 48px; padding-top: 160px; color: #FFFFFF;}
 .margin-top-20{ margin-top: 20px; }
 
 .donec_text{
 	font-size: 17px;
-    color: #110f0a;
+    color: #FFFFFF;
     margin-left: 0;
     padding-bottom: 20px;
     z-index: 9;
     position: relative;
+	
+	
 }
 
 .bannen_inner{
@@ -292,6 +352,17 @@ button.btn.btn-primary, button.btn.btn-primary:hover, button.btn.btn-primary:foc
 	float: left;
 	text-align: center;;
 }
+
+.lorem_textye{
+	width: 100%;
+	float: left;
+	text-align: left;;
+}
+
+.margebas {
+	margin-bottom: 1%;
+}
+
 
 .color{
 	color: #2aaf80;
